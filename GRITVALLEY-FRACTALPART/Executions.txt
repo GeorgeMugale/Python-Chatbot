@@ -1,0 +1,67 @@
+DRAWSQUARE, DRAWASQUARE :
+
+
+
+
+# Create a Turtle screen and set up the Turtle
+
+turtle.shape("turtle")
+
+# Draw the square
+for _ in range(4):
+    turtle.forward(50)
+    turtle.right(90)
+
+# Close the Turtle graphics window on click
+
+turtle.exitonclick()
+
+EOF
+
+DRAWTURTLE, DRAWATURTLE :
+print("TURTLE")
+EOF
+
+DRAWCIRCLE, DRAWACIRCLE :
+import turtle
+
+# Draw the circle
+turtle.circle(50)
+
+# Close the Turtle graphics window on click
+turtle.exitonclick()
+
+EOF
+
+DRAWTRIANGLE, DRAWATRIANGLE :
+import turtle
+
+for _ in range(3):
+    turtle.forward(50)
+    turtle.left(120)
+
+# Close the Turtle graphics window on click
+turtle.exitonclick()
+
+EOF
+
+DRAWRECTANGLE, DRAWARECTANGLE :
+import turtle
+
+    turtle.forward(50)
+    turtle.right(90)
+    turtle.forward(25)
+    turtle.right(90)
+
+# Close the Turtle graphics window on click
+turtle.exitonclick()
+
+EOF
+
+DRAWANIMATION, DRAWAANIMATION :
+print("ANIMATION")
+EOF
+
+DRAWFRACTAL, DRAWAFRACTAL :
+print("FRACTAL")
+EOF

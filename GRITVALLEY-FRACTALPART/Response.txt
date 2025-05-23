@@ -1,0 +1,60 @@
+WHATTURTLE, WHATATURTLE, WHENTURTLE ,WHENATURTLE, WHOTURTLE, WHOATURTLE, WHERETURTLE ,WHEREATURTLE :
+A Really old reptile:) In python terms, Turtle can draw intricate shapes using programs that repeat simple moves. In Python, turtle graphics provides a representation of a physical “turtle” (a little robot with a pen) that draws on a sheet of paper on the floor. According to Python.org.  
+EOF
+
+HOWTURTLE, HOWATURTLE :
+how to draw witha turtle
+EOF
+
+WHATSQUARE, WHATASQUARE :
+A square is a regular polygon having four equal sides and equal angles that measure 90° each.
+EOF
+
+HOWSQUARE, HOWASQAURE, HOWDRAWSQUARE, HOWDRAWASQUARE:
+Telling the user how to draw a square and providing tips
+EOF
+
+WHATCIRCLE, WHATACIRCLE :
+A circle is a shape consisting of all points in a plane that are at a given distance from a given point, the centre. The distance between any point of the circle and the centre is called the radius. The circle has been known since before the beginning of recorded history.
+EOF
+
+HOWCIRCLE, HOWACIRCLE, HOWDRAWCIRCLE, HOWDRAWACIRCLE:
+how to draw a circle
+EOF
+
+WHATTRIANGLE, WHATATRIANGLE :
+A triangle is a polygon with three edges and three vertices. It is one of the basic shapes in geometry. A triangle with vertices A, B, and C is denoted. In Euclidean geometry, any three points, when non-collinear, determine a unique triangle and simultaneously, a unique plane.
+EOF
+
+HOWTRIANGLE, HOWATRIANGLE, HOWDRAWTRIANGLE, HOWDRAWATRIANGLE:
+how to draw a TRIANGLE
+EOF
+
+WHATRECTANGLE, WHATARECTANGLE :
+A Rectangle is a four sided-polygon, having all the internal angles equal to 90 degrees. The two sides at each corner or vertex, meet at right angles. Only two sides parralle to each other are equal
+EOF
+
+HOWRECTANGLE, HOWARECTANGLE, HOWDRAWRECTANGLE, HOWDRAWARECTANGLE:
+how to draw a RECTANGLE
+EOF
+
+WHATANIMATION, WHATAANIMATION :
+Oxford dictionary says : The technique of photographing successive drawings or positions of puppets or models to create an illusion of movement when the film is shown as a sequence.
+
+EOF
+
+HOWANIMATION, HOWAANIMATION, HOWDRAWANIMATION, HOWDRAWAANIMATION:
+how to draw a ANIMATION
+EOF
+
+WHATFRACTAL, WHATAFRACTAL :
+iternal.us says : A Fractal is a type of mathematical shape that are infinitely complex. 
+In essence, a Fractal is a pattern that repeats forever, and every part of the Fractal, 
+regardless of how zoomed in, or zoomed out you are, it looks very similar to the whole image.
+EOF
+
+HOWFRACTAL, HOWAFRACTAL, HOWDRAWFRACTAL, HOWDRAWAFRACTAL:
+how to draw a FRACTAL
+EOF
+
+

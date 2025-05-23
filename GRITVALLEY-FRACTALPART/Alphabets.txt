@@ -1,0 +1,751 @@
+A^ :
+
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the center of the screen
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(65) # turn right by 65 degrees
+turtle.forward(100) # move forward by 100 units
+turtle.setpos(-30 + count, 50) # go back to the starting point
+turtle.right(50) # turn right by 50 degrees
+turtle.forward(100) # move forward by 100 units
+turtle.penup() # lift the pen up
+turtle.setpos(-50 + count, -10) # move to the middle of the A
+turtle.right(65) # turn right by 65 degrees
+turtle.pendown() # put the pen down
+turtle.backward(50) # move backward by 50 units
+turtle.penup() # lift the pen up
+turtle.setpos(50, 50) # move to the end point
+EOF
+
+B^ :
+radius = 50 # radius of the curves
+angle = 180 # angle of the curves
+
+# draw the straight line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(200) # move forward by 200 units
+
+# draw the first curve
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the center of the screen
+turtle.pendown() # put the pen down
+turtle.right(-90) # turn left by 90 degrees
+turtle.circle(-radius, angle) # draw a semicircle with the given radius and angle
+
+# draw the second curve
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, -50) # move to the center of the screen
+turtle.pendown() # put the pen down
+turtle.right(180) # turn right by 180 degrees
+turtle.circle(-radius, angle) # draw another semicircle with the same radius and angle
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(50, 50) # move to the end point
+EOF
+
+C^ :
+
+radius = 50 # radius of the curve
+angle = 180 # angle of the curve
+
+# draw the curve
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(180) # turn right by 180 degrees
+turtle.circle(radius, angle) # draw a semicircle with the given radius and angle
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(50, 50) # move to the end point
+EOF
+
+D^ :
+
+radius = 50 # radius of the curve
+angle = 180 # angle of the curve
+
+# draw the straight line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(200) # move forward by 200 units
+
+# draw the curve
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the center of the screen
+turtle.pendown() # put the pen down
+turtle.right(-90) # turn left by 90 degrees
+turtle.circle(-2 *radius, angle) # draw a semicircle with the given radius and angle
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(50 + count , 50) # move to the end point
+EOF
+
+E^ :
+length = 100 # length of the horizontal lines
+height = 200 # height of the vertical line
+
+# draw the vertical line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(height) # move forward by the height
+
+# draw the top horizontal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the center of the screen
+turtle.pendown() # put the pen down
+turtle.left(90) # turn left by 90 degrees
+turtle.forward(length) # move forward by the length
+
+# draw the middle horizontal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, -50) # move to the center of the screen
+turtle.pendown() # put the pen down
+turtle.forward(length) # move forward by the length
+
+# draw the bottom horizontal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, -150) # move to the bottom of the screen
+turtle.pendown() # put the pen down
+turtle.forward(length) # move forward by the length
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(90, 50) # move to the end point
+EOF
+
+F^ :
+length = 100 # length of the horizontal lines
+height = 200 # height of the vertical line
+
+# draw the vertical line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(height) # move forward by the height
+
+# draw the top horizontal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the center of the screen
+turtle.pendown() # put the pen down
+turtle.left(90) # turn left by 90 degrees
+turtle.forward(length) # move forward by the length
+
+# draw the middle horizontal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, -50) # move to the center of the screen
+turtle.pendown() # put the pen down
+turtle.forward(length) # move forward by the length
+
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(90, 50) # move to the end point
+
+EOF
+
+G^ :
+radius = 50 # radius of the curve
+angle = 180 # angle of the curve
+
+# draw the curve
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(180) # turn right by 180 degrees
+turtle.circle(radius, angle) # draw a semicircle with the given radius and angle
+
+# draw the horizontal line
+turtle.left(90) # turn left by 90 degrees
+turtle.forward(50) # move forward by 50 units
+
+# draw the vertical line
+turtle.goto(-50+ count, 0) # move to the middle of the curve
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(50) # move forward by 50 units
+
+# draw the small horizontal line
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(20) # move forward by 20 units
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(50, 50) # move to the end point
+EOF
+
+H^ :
+height = 200 # height of the vertical lines
+length = 100 # length of the horizontal line
+
+# draw the left vertical line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(height) # move forward by the height
+
+# draw the horizontal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, -50) # move to the middle of the screen
+turtlet.pendown() # put the pen down
+turtle.left(90) # turn left by 90 degrees
+turtle.forward(length) # move forward by the length
+
+# draw the right vertical line
+turtle.penup() # lift the pen up
+turtle.goto(70 + count, 50) # move to the bottom of the screen
+turtle.pendown() # put the pen down
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(height) # move forward by the height
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(90, 50) # move to the end point
+
+EOF
+
+I^ :
+length = 100 # length of the vertical line
+
+# draw the vertical line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(length) # move forward by the length
+
+# draw the top horizontal line
+turtle.penup() # lift the pen up
+turtle.goto(-25 + count, -50) # move to the middle of the screen
+turtle.pendown() # put the pen down
+turtle.left(90) # turn left by 90 degrees
+turtle.forward(length/2) # move forward by the length
+
+# draw the top horizontal line
+turtle.penup() # lift the pen up
+turtle.goto(-25 + count, 50) # move to the middle of the screen
+turtle.pendown() # put the pen down
+turtle.forward(length/2) # move forward by the length
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(50, 50) # move to the end point
+EOF
+
+J^ :
+radius = 50 # radius of the curve
+angle = 180 # angle of the curve
+
+# draw the curve
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 180 degrees
+turtle.circle(radius/2, angle/2) # draw a semicircle with the given radius and angle
+
+# draw the vertical line
+turtle.left(90) # turn left by 90 degrees
+turtle.forward(100) # move forward by 100 units
+
+# draw the top horizontal line
+turtle.right(90)
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 125) # move to the middle of the screen
+turtle.pendown() # put the pen down
+turtle.forward(50) # move forward by the length
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the end point
+EOF
+
+K^ :
+height = 190 # height of the vertical line
+length = 120 # length of the diagonal lines
+
+# draw the vertical line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(height) # move forward by the height
+
+# draw the first diagonal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, -50) # move to the middle of the screen
+turtle.pendown() # put the pen down
+turtle.left(135) # turn left by 135 degrees
+turtle.forward(length) # move forward by the length
+
+# draw the second diagonal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, -50) # move to the middle of the screen
+turtle.pendown() # put the pen down
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(length) # move forward by the length
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the end point
+EOF
+
+L^ :
+height = 190 # height of the vertical line
+length = 120 # length of the diagonal lines
+
+# draw the vertical line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(height) # move forward by the height
+
+#horizontal line
+turtle.left(90)
+turtle.forward(length)
+
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(50, 50) # move to the end point
+EOF
+
+M^ :
+height = 200 # height of the vertical lines
+length = 100 # length of the diagonal lines
+
+# draw the left vertical line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(height) # move forward by the height
+
+# draw the first diagonal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the top of the screen
+turtle.pendown() # put the pen down
+turtle.left(45) # turn right by 135 degrees
+turtle.forward(length) # move forward by the length
+
+# draw the second diagonal line
+turtle.penup() # lift the pen up
+turtle.pendown() # put the pen down
+turtle.left(90) # turn left by 90 degrees
+turtle.forward(length) # move forward by the length
+
+# draw the left vertical line
+turtle.penup() # lift the pen up
+turtle.goto(111 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(135) # turn right by 90 degrees
+turtle.forward(height) # move forward by the height
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the end point
+EOF
+
+N^ :
+import math
+height = 200 # height of the vertical lines
+length = 100 # length of the diagonal line
+
+# draw the left vertical line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(height) # move forward by the height
+
+# draw the diagonal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the top of the screen
+turtle.pendown() # put the pen down
+turtle.left(35) # turn right by 135 degrees
+turtle.forward(math.sqrt(length*length + height*height) + 10) # move forward by the length
+
+# draw the right vertical line
+t.penup() # lift the pen up
+t.pendown() # put the pen down
+t.left(145) # turn left by 135 degrees
+t.forward(height) # move forward by the height
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the end point
+EOF
+
+O^ :
+
+# draw the left vertical line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 0) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.circle(50)
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the end point
+EOF
+
+P^ :
+radius = 50 # radius of the curves
+angle = 180 # angle of the curves
+
+# draw the straight line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(200) # move forward by 200 units
+
+# draw the first curve
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the center of the screen
+turtle.pendown() # put the pen down
+turtle.right(-90) # turn left by 90 degrees
+turtle.circle(-radius, angle) # draw a semicircle with the given radius and angle
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(50, 50) # move to the end point
+EOF
+
+Q^ :
+radius = 50 # radius of the curve
+angle = 180 # angle of the curve
+
+# draw the curve
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(180) # turn right by 180 degrees
+turtle.circle(radius) # draw a semicircle with the given radius and angle
+
+# draw the tail
+turtle.penup() # lift the pen up
+turtle.goto(-10 + count, -40) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.left(135)
+turtle.forward(30)
+
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the end point
+EOF
+
+R^ :
+radius = 50 # radius of the curves
+angle = 180 # angle of the curves
+
+# draw the straight line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(200) # move forward by 200 units
+
+# draw the first curve
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the center of the screen
+turtle.pendown() # put the pen down
+turtle.right(-90) # turn left by 90 degrees
+turtle.circle(-radius, angle) # draw a semicircle with the given radius and angle
+
+# draw the second diagonal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, -50) # move to the middle of the screen
+turtle.pendown() # put the pen down
+turtle.left(125) # turn right by 90 degrees
+turtle.forward(radius*2 + 20) # move forward by the length
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(50, 50) # move to the end point
+EOF
+
+S^ :
+radius = 50 # radius of the curves
+angle = 180 # angle of the curves
+
+# draw the top curve
+turtle.penup() # lift the pen up
+turtle.goto(-25 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(180) # turn right by 180 degrees
+turtle.circle(radius - 10, angle) # draw a semicircle with the given radius and angle
+
+# draw the bottom curve
+#t.left(90) # turn left by 90 degrees
+turtle.circle(-radius + 10, angle) # draw another semicircle with the opposite radius and angle
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the end point
+EOF
+
+T^ :
+length = 100 # length of the vertical line
+
+# draw the vertical line
+turtle.penup() # lift the pen up
+turtle.goto(0 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(length) # move forward by the length
+
+# draw the top horizontal line
+turtle.penup() # lift the pen up
+turtle.goto(-50 + count, 50) # move to the middle of the screen
+turtle.pendown() # put the pen down
+turtle.left(90) # turn left by 90 degrees
+turtle.forward(length) # move forward by the length
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(50, 50) # move to the end point
+EOF
+
+U^ :
+radius = 50 # radius of the curve
+angle = 180 # angle of the curve
+
+# draw the left vertical line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(80) # move forward by 100 units
+turtle.left(10)
+turtle.forward(10)
+turtle.circle(radius/2,angle/4)
+
+# draw the curve
+turtle.left(10) # turn left by 90 degrees
+turtle.circle(radius, angle/2) # draw a semicircle with the given radius and angle
+
+# draw the right vertical line
+
+turtle.left(25)
+turtle.forward(80) # move forward by 100 units
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the end point
+EOF
+
+V^ :
+import math
+height = 200 # height of the vertical lines
+length = 100 # length of the diagonal line
+
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+
+
+# draw the diagonal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the top of the screen
+turtle.pendown() # put the pen down
+turtle.left(25) # turn right by 135 degrees
+turtle.forward(math.sqrt(length*length + height*height) + 10) # move forward by the length
+
+# draw the right vertical line
+turtle.penup() # lift the pen up
+turtle.pendown() # put the pen down
+turtle.left(135) # turn left by 135 degrees
+turtle.forward(math.sqrt(length*length + height*height) + 10) # move forward by the height
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the end point
+EOF
+
+W^ :
+import math
+height = 200 # height of the vertical lines
+length = 100 # length of the diagonal line
+
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+
+
+# draw the diagonal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the top of the screen
+turtle.pendown() # put the pen down
+turtle.left(25) # turn right by 135 degrees
+turtle.forward(math.sqrt(length*length + height*height) + 10) # move forward by the length
+
+# draw the right vertical line
+
+turtle.penup() # lift the pen up
+turtle.pendown() # put the pen down
+turtle.left(135) # turn left by 135 degrees
+turtle.forward(math.sqrt(length*length + height*height) + 10) # move forward by the height
+
+
+turtle.right(170)
+# draw the diagonal line
+turtle.left(25) # turn right by 135 degrees
+turtle.forward(math.sqrt(length*length + height*height) + 10) # move forward by the length
+
+
+
+# draw the right vertical line
+turtle.penup() # lift the pen up
+turtle.pendown() # put the pen down
+turtle.left(135) # turn left by 135 degrees
+turtle.forward(math.sqrt(length*length + height*height) + 10) # move forward by the height
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the end point
+EOF
+
+X^ :
+length = 200 # length of the diagonal lines
+
+# draw the first diagonal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(65) # turn right by 45 degrees
+turtle.forward(length) # move forward by the length
+
+# draw the second diagonal line
+turtle.penup() # lift the pen up
+turtle.goto(30 + count, 50) # move to the top of the screen
+turtle.pendown() # put the pen down
+turtle.right(45) # turn right by 90 degrees
+turtle.forward(length) # move forward by the length
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the end point
+EOF
+
+Y^ :
+height = 200 # height of the vertical lines
+length = 100 # length of the diagonal lines
+
+# draw the left vertical line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+turtle.right(90) # turn right by 90 degrees
+turtle.forward(height / 2) # move forward by half the height
+
+# draw the first diagonal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the middle of the screen
+turtle.pendown() # put the pen down
+turtle.right(180 + 45) # turn left by 45 degrees
+turtle.forward(length) # move forward by the length
+
+# draw the second diagonal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the middle of the screen
+turtle.pendown() # put the pen down
+turtle.left(90) # turn right by 90 degrees
+turtle.forward(length) # move forward by the length
+
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the end point
+EOF
+
+Z^ :
+import math
+height = 200 # height of the vertical lines
+length = 100 # length of the diagonal line
+
+# draw the left vertical line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the starting point
+turtle.pendown() # put the pen down
+turtle.pensize(10) # set the pen size
+turtle.pencolor("black") # set the pen color
+
+turtle.forward(height) # move forward by the height
+
+# draw the diagonal line
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the top of the screen
+turtle.pendown() # put the pen down
+turtle.left(35) # turn right by 135 degrees
+turtle.forward(math.sqrt(length*length + height*height) + 10) # move forward by the length
+
+# draw the right vertical line
+turtle.penup() # lift the pen up
+turtle.pendown() # put the pen down
+turtle.left(145) # turn left by 135 degrees
+turtle.forward(height) # move forward by the height
+
+# end at the same Y coordinate as the starting point
+turtle.penup() # lift the pen up
+turtle.goto(-30 + count, 50) # move to the end point
+EOF
