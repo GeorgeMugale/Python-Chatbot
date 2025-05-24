@@ -38,13 +38,13 @@ This project is a Python-based chatbot developed for the **University of Johanne
 3. Install required libraries (if applicable):
    ```bash
    pip install beautifulsoup4 requests
-````
+   ````
 
 4. Run the main chatbot script:
 
    ```bash
    python AUTO.py
-   ```
+   ````
 
 ## Project Context
 
